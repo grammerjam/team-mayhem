@@ -8,4 +8,4 @@
 
 
 ______________________________
-**Powered by [Grammerhub](http://discord.grammerhub.org)
+**Powered by [Grammerhub](http://discord.grammerhub.org)**
