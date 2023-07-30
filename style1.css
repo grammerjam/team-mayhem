@@ -1,0 +1,29 @@
+.cardTop {
+   
+    height: 225px;
+    width: 550px;
+    background-color: lightblue;
+
+}
+
+.cardBottom {
+    height:175px;
+    width: 550px;
+    background-color: white;
+   
+    text-align: center;
+}
+
+.card{
+
+    height: 450px;
+    width: 550px;
+    border: 5px solid black;
+}
+
+.extras{
+
+    height: 50px;
+    width: 550px;
+    
+}
