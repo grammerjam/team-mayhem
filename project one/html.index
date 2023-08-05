@@ -19,37 +19,39 @@
 </head>
 
 <body>
+
     <div class="container">
+
     <div id="circle-top">
       /*<img src="images/bg-pattern-top.svg"/>*/
     </div>
+
      <div class="card">
+
       <section class="card-top">
         <img class="rounded-image" src="/images/bg-pattern-card.svg"/>
-     
-     
-     
-    </section>
+      </section>
+
     <div class="img-victor">
       <img id="victor" src="/images/image-victor.jpg"/>
     </div>
-      <section class="card-bottom">
-        
-     
 
+      <section class="card-bottom"> 
+        <div class="card-bottom">
 
-      <div class="card-bottom">
-        <div class="spacing">
-        <b>Victor Crest</b> 26 <br><br>
-        <p style="color: grey;">London</p>
-        <div class="social">
-        <p style="font-size: 18px; margin-top: 25px;"><b>80k</b>  <b>803k</b>   <b>1.4k</b> </p><br>
- 
-       <p style="color: grey; font-size: 10px;" >Followers  Likes Photos</p>
-       </div>
-      </div>
+          <div class="spacing">
+            <p style="font-weight: 600;display:inline;" <b>Victor Crest</b> <p style="color: grey; display:inline;">26</p> <br><br>
+             <p style="color: grey;">London</p>
+
+          <div class="social">
+             <p style="font-size: 18px; margin-top: 25px;  font-weight: 600;word-spacing: 65px;"><b>80k</b>  <b>803k</b>   <b>1.4k</b> </p>
+             <div class="social-types">
+              Followers Likes Photos
+              </div>
+          </div>
+          </div>
       
-      </div>
+        </div>
       
     </div>
 
