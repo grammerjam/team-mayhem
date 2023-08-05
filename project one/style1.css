@@ -93,8 +93,9 @@ table {
     position: absolute;
     width: 96px;
     height: 96px;
-   
-    bottom: 600px;    
+    bottom: 575px;  
+    border-radius: 50%;
+    border: 5px solid white;  
 }
 
 .img-victor img {
@@ -116,15 +117,17 @@ table {
 	
 }
 .social{
-   margin-top: 35px;
-
+    margin-top: 35px;
     border-top: 2px solid lightgray;
     width: 350px;
-  
-	word-spacing: 50px;
+  	
    
 }
-
+.social-types{
+    word-spacing: 75px;
+    color: grey; 
+    font-size: 10px;
+}
 
 #circle-top {
    
