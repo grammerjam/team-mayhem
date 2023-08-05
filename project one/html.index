@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style1.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+    <div class="container">
+    <div id="circle-top">
+      /*<img src="images/bg-pattern-top.svg"/>*/
+    </div>
+     <div class="card">
+      <section class="card-top">
+        <img class="rounded-image" src="/images/bg-pattern-card.svg"/>
+     
+     
+     
+    </section>
+    <div class="img-victor">
+      <img id="victor" src="/images/image-victor.jpg"/>
+    </div>
+      <section class="card-bottom">
+        
+     
+
+
+      <div class="card-bottom">
+        <div class="spacing">
+        <b>Victor Crest</b> 26 <br><br>
+        <p style="color: grey;">London</p>
+        <div class="social">
+        <p style="font-size: 18px; margin-top: 25px;"><b>80k</b>  <b>803k</b>   <b>1.4k</b> </p><br>
+ 
+       <p style="color: grey; font-size: 10px;" >Followers  Likes Photos</p>
+       </div>
+      </div>
+      
+      </div>
+      
+    </div>
+
+     
+
+    </section>
+    <div id="circle-bottom">
+      <img src="images/bg-pattern-bottom.svg"/>
+    </div>
+
+  </div>
+</div>
+</body>
+
+</html>
