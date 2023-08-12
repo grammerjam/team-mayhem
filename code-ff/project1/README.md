@@ -1,4 +1,8 @@
-F# Profile card component
+## Team Mayhem README notes
+
+We created a profile template based on the specs we used from figma.com.  The project included images: background color, card theme and circle images.  We applied created a container for the card layout and add css to recreate the profile card.
+
+# Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
