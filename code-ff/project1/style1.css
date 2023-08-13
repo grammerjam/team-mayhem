@@ -3,8 +3,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: black;
-    overflow: hidden;
+   
     
 }
 .page-wrapper{
@@ -24,7 +23,7 @@ body {
     display: flex;  
     justify-content: center;
     align-items: center; 
-        
+    z-index: -2;    
     
 }
 .card {
@@ -38,7 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    z-index: 1;
 }
 .img-victor{ 
     max-width: 96px;
@@ -52,14 +51,14 @@ body {
 .card-top img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    max-width: 350px;
+    max-width: 600px;
     width: 100%;
     max-height: 140px;
     height: auto;
 }
 .social {
     border-top: 2px solid lightgray;
-    max-width: 350px;
+    max-width: 600px;
     width: 100%;
     margin-top: 10%;
    
@@ -93,106 +92,106 @@ body {
    
     font-size: 10px;
 }
+/*
 .top-circle { 
     margin-top: -1050px;
     margin-left: -975px;
     z-index: -1;    
 }
 .bottom-circle {
+
+   z-index: -1;
+    
+}
+.bottom-circle img{
+    border: 5px solid red;
     max-width: 978px;
-    max-height: 976px;;
+    max-height: 976px;
     width: 100%;
     height: 100%;
-    
-    margin-top: -15%;
-    margin-left: 50%;
 }
+.container::before {
+    content: '';
+    max-width: 978px;
+    max-height: 976px;
+    position: absolute;
+    top: 30%; 
+    left: 55%; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url('/images/bg-pattern-bottom.svg');   
+}
+.container::after {
+    content: '';
+    max-width: 978px;
+    max-height: 976px;
+    position: absolute;
+    top: -35%; 
+    left: 10%; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url('/images/bg-pattern-top.svg');   
+}*/
 
-@media only screen and (max-width: 375px)/* and (max-height:700px)*/ {
-    /* CSS rules for 375px screen width and below go here */
-    body {
-        background: #19A1AE;
-        z-index: -1;
-    }
-
-    .page-wrapper {
-        position: absolute;
-        left: 20%;
-      
-    }
-    .container{
-        width:100%;
-        height:100%;
-        left: -55px;
-        z-index: -1;
-       
-       
-         
-  }
-  .card {
-    margin-top: 250px;
-    width: 326px;
-    height: 374px;
+@media (max-width: 640px) {
+    .card{   
+      width: 80%;
+        max-width: 540px;
+        max-height: 420px;
+}
+.container {
+width: 90%;
+}
+.socialinfo2{
+    max-width: 250px;
+ 
    
-  }
-  .img-victor {
-    width: 96px;
-    height: 96px;
-    top: 47%;
-    right: 55%;
-   border: none;
-    
-    
-  }
-#victor {
-    border: 5px solid white;
-    border-radius: 50%;
-  }
-  .rounded-image{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    max-width: 326px;
-
-}
-.social{
-    margin-top: 35px;
-    border-top: 2px solid lightgray;
-    width: 326px;  	
    
+    font-size: .55em;
+    display: flex;
+    padding-right: 0;
+    padding-left: 0;
+    justify-content: center;
+    
 }
+.socialinfo{
+font-size:.75em;
+display: flex; 
+padding-right: 0px;
+word-spacing: 70px;
+padding-left: 0px;
 
-
-.top-circle{ 
-    position: absolute; 
-    
-    top: -620px;
-    left: -650px;
-    opacity: 0.50;
-    transform: rotate(75deg);
-    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
-    
-    
-  
-    
-    z-index: -1;
-    border: 10px solid red;
 
 }
-.bottom-circle{
-
+.card {
+    height: 55%;
+    width: 93%;
+}
+.card-top img {
     
-    position: absolute; 
-    width: 622px;
-    height: 621px;
-    top: 475px;
-    left: 125px;
-    opacity: 0.25;
-    transform: rotate(45deg);
-    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
-    border-radius: 50%;
-    z-index: -1;
+    max-width: 100%;
+    
+    
+}
+}
+.card-top {
+    left: 20%;
+    width: 100%
+}
+/*
+@media (max-height: 1200px){
+    
+.container{   
+   
+   
+    height: 90%; 
+   
         
-    
-    
 }
 
+
+
+
+
+    
+}*/
