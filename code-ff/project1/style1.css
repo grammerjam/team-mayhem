@@ -3,7 +3,41 @@
 body {
     width: 100%;
     height: 100%;
-   
+    
+    
+  
+}
+.circle-top {
+    
+    background-image: url('images/bg-pattern-top.svg');
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 100%;
+    background-size: 90%;
+  
+    
+    max-height: 976px;
+    max-width: 978px;
+    left: 2%;
+    position: absolute;
+    
+    bottom: 40%;
+}
+.circle-bot {
+    
+    background-image: url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 90%;   
+    max-height: 976px;
+    max-width: 978px;
+    left: 52%;
+    top: 40%;
+    position: absolute;
+    
+    
     
 }
 .page-wrapper{
@@ -16,7 +50,7 @@ body {
 }
 .container{   
     background: #19A1AE;
-    width: 70%;
+    width: 110%;
     max-width: 1440px;
     max-height: 720px;
     height: 100vh; 
@@ -38,6 +72,8 @@ body {
     flex-direction: column;
     align-items: center;
     z-index: 1;
+    order: 2;
+    
 }
 .img-victor{ 
     max-width: 96px;
@@ -92,46 +128,7 @@ body {
    
     font-size: 10px;
 }
-/*
-.top-circle { 
-    margin-top: -1050px;
-    margin-left: -975px;
-    z-index: -1;    
-}
-.bottom-circle {
 
-   z-index: -1;
-    
-}
-.bottom-circle img{
-    border: 5px solid red;
-    max-width: 978px;
-    max-height: 976px;
-    width: 100%;
-    height: 100%;
-}
-.container::before {
-    content: '';
-    max-width: 978px;
-    max-height: 976px;
-    position: absolute;
-    top: 30%; 
-    left: 55%; 
-    width: 100%; 
-    height: 100%; 
-    background-image: url('/images/bg-pattern-bottom.svg');   
-}
-.container::after {
-    content: '';
-    max-width: 978px;
-    max-height: 976px;
-    position: absolute;
-    top: -35%; 
-    left: 10%; 
-    width: 100%; 
-    height: 100%; 
-    background-image: url('/images/bg-pattern-top.svg');   
-}*/
 
 @media (max-width: 640px) {
     .card{   
@@ -141,6 +138,17 @@ body {
 }
 .container {
 width: 90%;
+}
+.circle-top {
+   
+    bottom: 15%;
+    left: -40%;
+    background-size: 95%;
+}
+.circle-bot {
+
+    top: 50%;
+    left: 55%
 }
 .socialinfo2{
     max-width: 250px;
@@ -178,20 +186,3 @@ padding-left: 0px;
     left: 20%;
     width: 100%
 }
-/*
-@media (max-height: 1200px){
-    
-.container{   
-   
-   
-    height: 90%; 
-   
-        
-}
-
-
-
-
-
-    
-}*/
